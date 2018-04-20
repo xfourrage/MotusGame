@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1_Motus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_Motus"
+        mc:Ignorable="d"
+        Title="Le jeu du Motus" Height="520.61" Width="522.806">
+    <Grid Margin="0,0,-0.2,138.8">
+        <TextBox HorizontalAlignment="Left" Height="84" Margin="29,10,0,0" TextWrapping="Wrap" Text="&#x9;&#x9;&#x9;Motus Game &#xA;Le but du jeu est de retrouver le mot de départ avec le minimum d'essai" VerticalAlignment="Top" Width="454" FontSize="14"/>
+        <TextBox x:Name="TextBoxInfo" HorizontalAlignment="Left" Height="23" Margin="29,171,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="454"/>
+        <Button x:Name="btn_validate" Content="Validate" HorizontalAlignment="Left" Margin="283,218,0,0" VerticalAlignment="Top" Width="200" Click="btn_Validate"/>
+        <Button x:Name="btn_newgame" Content="New Game" HorizontalAlignment="Left" Margin="29,218,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="-0.214,0.601" Click="btn_NewGame"/>
+        <TextBlock x:Name="TextBlockInfo" HorizontalAlignment="Left" Margin="29,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="454" />
+        <Button x:Name="btn_validerEssai" Content="Validate guess" HorizontalAlignment="Left" Margin="29,270,0,0" VerticalAlignment="Top" Width="454" RenderTransformOrigin="-0.091,0.144" Click="btn_valideressai"/>
+
+    </Grid>
+</Window>
